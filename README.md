@@ -13,6 +13,7 @@ A JavaScript library for obfuscating email addresses to prevent spam bot harvest
 
 ```bash
 npm install gtmrobox/email-obfuscator
+```
 
 ## Usage
 
@@ -32,3 +33,4 @@ document.getElementById('email-container').innerHTML = result.html;
 const script = document.createElement('script');
 script.textContent = result.script;
 document.body.appendChild(script);
+```
