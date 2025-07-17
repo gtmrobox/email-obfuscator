@@ -30,8 +30,9 @@ import EmailObfuscator from '@gtmrobox/email-obfuscator';
 
 // Basic usage
 const result = EmailObfuscator.obfuscate('test@example.com', {
-  linkText: 'Contact Us',
-  encodeType: 'base64',
+  linkText: 'Contact Us', // Default link text
+  encodeType: 'base64', // 'base64', 'hex', or 'numeric'
+  cssClass: 'obfuscated-email', // CSS class for the link
 });
 
 // Add to HTML
