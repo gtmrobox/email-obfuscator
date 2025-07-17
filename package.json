@@ -1,0 +1,28 @@
+{
+    "name": "@gtmrobox/email-obfuscator",
+    "version": "1.0.0",
+    "description": "JavaScript library for email address obfuscation",
+    "main": "src/emailObfuscator.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "email",
+        "obfuscation",
+        "spam-prevention"
+    ],
+    "author": "gtmrobox <msshdev@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gtmrobox/email-obfuscator.git"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.28.0",
+        "@babel/preset-env": "^7.28.0",
+        "babel-jest": "^30.0.4",
+        "glob": "^11.0.3",
+        "jest": "^30.0.4"
+    }
+}
