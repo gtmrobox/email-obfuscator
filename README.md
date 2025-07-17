@@ -17,7 +17,15 @@ npm install gtmrobox/email-obfuscator
 
 ## Usage
 
+```html
+<!-- HTML container for obfuscated email -->
+<div id="email-container"></div>
+```
+
+
 ```javascript
+// js
+
 import EmailObfuscator from '@gtmrobox/email-obfuscator';
 
 // Basic usage
